@@ -14,7 +14,7 @@ function convertMs(ms) {
   const hour = minute * 60;
   const day = hour * 24;
 
-  // Remaining days
+  // Remaining day
   const days = Math.floor(ms / day);
   // Remaining hours
   const hours = Math.floor((ms % day) / hour);
