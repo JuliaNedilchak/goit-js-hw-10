@@ -20,6 +20,7 @@ input {
   width: 272px;
   height: 40px;
 }
+
 button {
   padding: 8px 16px;
   justify-content: center;
@@ -86,4 +87,17 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+}
+fieldset {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  margin-bottom: 24px;
+}
+.form {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
